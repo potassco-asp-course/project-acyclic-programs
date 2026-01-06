@@ -7,7 +7,7 @@ To submit your solution, please modify the file [acyclic-programs.lp](asp/acycli
 Every time you push a new commit, your solution will be tested automatically.
 The timeout per instance is `100` seconds, and
 the actual command call for the test is:
-* ``python3.8 asp/test.py -e asp/acyclic-programs.lp -i asp/instances -s asp/solutions -opt -t 100 -m 250``
+* ``python asp/test.py -e asp/acyclic-programs.lp -i asp/instances -s asp/solutions -opt -t 100 -m 250``
 
 For help, type `python asp/test.py --help`.
 
